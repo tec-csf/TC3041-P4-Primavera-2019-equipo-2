@@ -1,0 +1,13 @@
+Crear el contenedor de influxDB 
+
+docker run --name influxDB -p 8086:8086 -d -v /var/lib/influxdb influxdb
+
+Crear contenedor Grafana
+
+docker run --name grafana -d -p 3000:3000 -v grafana:/var/lib/grafana grafana/grafana
+
+Insertar los datos a la base de datos con el script the python 
+python Health.py
+
+Visitar localhost 3000 para poder hacer gráficas de los datos en Grafana
+
