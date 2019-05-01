@@ -7,9 +7,9 @@ Nuestra propuesta es tener un sensor en la bicicleta o un reloj que permita al u
 Existen tres tipos de mediciones en la base de datos que son:
 1. Entrenamientos: 
   Dos tipos que son ligero y pesado
-2. Recorridos
+2. Recorridos: 
     Pueden ser calle o pasto
-3. Sensores
+3. Sensores:
     Sensor de bicicleta o sensor de mano (reloj)
 
 ## Para poder utilizarlo
